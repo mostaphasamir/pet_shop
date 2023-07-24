@@ -16,7 +16,8 @@ Widget pitItemWidget({required Pet pet}) => Container(
             padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
             child: Image.network(
               //TODO Change url to valid one
-              "https://t4.ftcdn.net/jpg/02/66/31/75/360_F_266317554_kr7DPOoM5Uty0YCeFU9nDZTt4a2LeMJF.jpg",
+              pet.petPic,
+              //"https://t4.ftcdn.net/jpg/02/66/31/75/360_F_266317554_kr7DPOoM5Uty0YCeFU9nDZTt4a2LeMJF.jpg",
               height: double.infinity,
               width: 150,
               fit: BoxFit.cover,
